@@ -1,0 +1,24 @@
+{
+  "name": "intronodejs",
+  "version": "1.0.0",
+  "description": "este proyecto va a quedar bien mamalon porque lo estoy haciendo yo y todo lo que hago yo queda bien mamalon",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "author": "banished_from",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "pug": "^2.0.4",
+    "sequelize": "^5.21.11"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
